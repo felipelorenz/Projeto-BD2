@@ -1,0 +1,4 @@
+C:\UNICAP 2021.2\Banco de dados 2\Projeto\DatabaseOperations\DatabaseOperationsApplication\DatabaseOperationsApplication.csproj;x86
+C:\UNICAP 2021.2\Banco de dados 2\Projeto\DatabaseOperations\DatabaseOperationsModels\DatabaseOperationsModels.csproj;x86
+C:\UNICAP 2021.2\Banco de dados 2\Projeto\DatabaseOperations\DatabaseOperationsModels\DatabaseOperationsModels.csproj;x86
+C:\UNICAP 2021.2\Banco de dados 2\Projeto\DatabaseOperations\DatabaseOperationsRepository\DatabaseOperationsRepository.csproj;x86
