@@ -6,7 +6,7 @@ namespace DatabaseOperationsRepository.DatabaseOperations
     {
         public void SelectCustomer(string customerIdentification)
         {
-            var queryString = "SELECT * FROM Customers WHERE CustomerID = '" + customerIdentification + "';";
+            var queryString = "EXEC imprimeCliente '" + customerIdentification + "';";
                 SendQueryString(queryString);
         }
 

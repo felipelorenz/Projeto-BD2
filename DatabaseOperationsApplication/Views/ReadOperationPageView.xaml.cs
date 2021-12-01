@@ -1,10 +1,13 @@
 ﻿using DatabaseOperationsApplication.ViewModels;
 using Windows.UI.Xaml.Controls;
 
+
 namespace DatabaseOperationsApplication.Views
 {
     public sealed partial class ReadOperationPageView : Page
     {
+
+        
         public ReadOperationPageView()
         {
             InitializeComponent();
@@ -14,16 +17,23 @@ namespace DatabaseOperationsApplication.Views
         {
             if (customerIdentificationTextBox.Text.Length > 0)
             {
+                
                 ReadOperationPageViewModel viewModel = new ReadOperationPageViewModel();
                 viewModel.ReadCustomer(customerIdentificationTextBox.Text);
+                
             }
             else
             {
                 customerIdentificationTextBox.Text = "Invalid customer identification!";
             }
         }
-        private void DeleteButtonClick(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        
+
+        private void GridView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+
         }
+
+
     }
 }

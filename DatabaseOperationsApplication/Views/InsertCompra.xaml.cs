@@ -43,6 +43,9 @@ namespace DatabaseOperationsApplication.Views
             {
                 CreateOperationPageViewModel viewModel = new CreateOperationPageViewModel();
                 viewModel.InsertProducts(CodCompra.Text, IDproduto.Text);
+                
+                IDproduto.Text = "";
+
             }
             
         }

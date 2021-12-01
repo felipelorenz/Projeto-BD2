@@ -21,8 +21,21 @@ namespace DatabaseOperationsApplication.Views
                 viewModel.InsertCustomer(CustumerId.Text, CompanyName.Text, ContactName.Text,
                     ContactTitle.Text, Addres.Text, Cidade.Text, Regiao.Text, PostalCode1.Text,
                     Pais.Text, Fone.Text, Fax.Text);
+
+                CustumerId.Text = "";
+                CompanyName.Text = "";
+                ContactName.Text = "";
+                ContactTitle.Text = "";
+                Addres.Text = "";
+                Cidade.Text = "";
+                Regiao.Text = "";
+                PostalCode1.Text = "";
+                Pais.Text = "";
+                Fone.Text = "";
+                Fax.Text = "";
             }
             
+
         }
     }
 }

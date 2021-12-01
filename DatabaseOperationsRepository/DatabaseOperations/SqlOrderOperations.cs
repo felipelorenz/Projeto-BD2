@@ -27,7 +27,7 @@ namespace DatabaseOperationsRepository.DatabaseOperations
         }
         public void SelectOrder(string custumerId)
         {
-            var queryString = "EXEC busca '" + custumerId + "';"; //Executa a procedure feita no banco
+            var queryString = "EXEC imprimeOrder '" + custumerId + "';"; //Executa a procedure feita no banco
             SendQueryString(queryString);
         }
 
